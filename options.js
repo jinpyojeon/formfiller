@@ -1,17 +1,14 @@
-// var formfill = {
-//     label 
-// }
 
-//console.log(addButton);
 
-//var addButton = document.getElementsByName("add")[0];
+var labels = [];
 
-// addButton.onclick = addDiv();
+var app = angular.module('app', []);
 
-// var tbody = document.getElementsByClassName("table")
-//                     .getElementsByTagName("tbody");
+app.controller('labelsCtrl', function($scope) {
+    
+});
 
-var table = document.getElementsByClassName("table");
+// var table = document.getElementsByClassName("table");
 
 function addDiv () {
     $(table).find('tbody').append(
